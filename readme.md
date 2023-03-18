@@ -5,3 +5,16 @@
 - Setting Up password less ssh access for curent user ec2-user
 - Transffering .htacess file to /var/www/html/
 <hr>
+
+## Run Infra Setup with oneline Command
+```
+./create.sh
+```
+## KIll Infrastructure
+```
+./killinfra.sh
+```
+## Clean File Structure
+```
+./clean.sh
+```
