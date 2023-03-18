@@ -1,0 +1,12 @@
+
+# Check the Status of Open Port
+telnet 43.205.211.27 443
+
+Trying 43.205.211.27...
+telnet: Unable to connect to remote host: Connection refused
+
+# Check the port are currently Used
+netstat 43.205.211.27 443
+
+# Check if the service is listening on the correct port
+netstat -tulnp
